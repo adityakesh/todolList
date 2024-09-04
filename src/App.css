@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+form{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+
+form input{
+  flex-basis: 80%;
+  height: 40px;
+  font-size: 25px;
+  border: black 2px solid;
+}
+form button{
+  flex-basis: 20%;
+  border: blue 2px solid;
+  background-color: aqua;
+  font-size: 25px;
+  color: black;
+}
+.outerDiv{
+  width: 1170px;
+  margin: auto;
+
+}
+.outerDiv ul{
+  margin: 0px;
+  margin-top: 20px;
+  padding: 0px;
+  list-style: none;
+}
+.outerDiv ul li{
+  text-align: left;
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.outerDiv ul li span{
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
+}
+.completetodo{
+  text-decoration: line-through;
+  color: red;
+  background-color: yellow !important;
+}
