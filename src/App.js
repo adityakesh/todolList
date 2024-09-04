@@ -50,7 +50,7 @@ export default App;
 
 function ToDoListItems({value,indexNumber,todolist,saveToDolist}){
   let deleteRow=()=>{
-    let finalData=todolist.filter((v,i)=>i != indexNumber)
+    let finalData=todolist.filter((v,i)=>i !== indexNumber)
     saveToDolist(finalData)
   }
 
